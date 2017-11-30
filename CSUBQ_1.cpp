@@ -1,5 +1,5 @@
 // wrote using help from the editorial for CSUBQ on CodeChef.
-//  Solve function and assert statements are required to get rid of TLE in one case.
+// find_answer function and assert statements are required to get rid of TLE in one case.
 #include<bits/stdc++.h>
 typedef long long int ll;
 
@@ -91,7 +91,7 @@ class segmenttree
         }
 };
 
-void find_answer ()
+void find_answer()
 {
     ll N, Q, L, R;
     cin>>N>>Q>>L>>R;
